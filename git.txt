@@ -4,5 +4,5 @@ Instrucion for init a Git repository:
 2. Add files into the repository by "git add filename".
 3. git status
 4. git diff
-5. git commit --all
+5. git commit --all -m "comment"
 
