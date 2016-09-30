@@ -1,0 +1,5 @@
+Instrucion for init a Git repository:
+
+1. Go into the directory and type "git init".
+2. Add files into the repository by "git add filename".
+
