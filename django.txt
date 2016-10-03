@@ -1,0 +1,4 @@
+Instructions for django:
+
+1. go to the django project directory.
+2. run this command "python manage.py runserver"

@@ -1,4 +1,4 @@
-Instruction for nodes:
+Instructions for node.js:
 
 1. Assuming the server application name is phwang.js. Run the node using this command "node phwang.js".
 
