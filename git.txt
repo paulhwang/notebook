@@ -5,4 +5,7 @@ Instrucion for init a Git repository:
 3. git status
 4. git diff
 5. git commit --all -m "comment"
+6. git config -l
+7. git branch -r
+8. git push origin master:master
 
