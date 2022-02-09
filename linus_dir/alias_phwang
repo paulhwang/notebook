@@ -1,0 +1,47 @@
+alias a='alias'
+a h='history'
+a l='ls'
+a ll='ls -l'
+a lll='ls -a'
+a llll='ls -al'
+a key='cat ~/mine/key'
+a cdm='cd; cd mine'
+a cdw='cdm; cd work'
+a cdc='cdw; cd c_go'
+a cdn='cdw; cd n_go'
+a cdj='cdw; cd j_go'
+a cdnotebook='cdw; cd notebook'
+a cdpython='cdm; cd python'
+alias cdpythonenvironments="cdpython; cd environments; source my_env/bin/activate"
+a au="cd ~; vi .alias_phwang; source ~/.alias_phwang"
+
+
+
+alias lld="cds; ll db_dir"
+alias llt="cds; ll target_dir"
+alias go1="cds; target_dir/sql_server"
+alias cdg="cd; cd github"
+
+alias cds="cdg; cd sql_go"
+alias goc="cdc; ./server"
+alias gon="cdn; ./run_go"
+alias cdss="cds; cd sql_server_dir"
+alias cdt="cds; cd test_dir"
+alias cdu="cds; cd utils_dir"
+alias cdua="cdu; cd abend_dir"
+alias cdub="cdu; cd binder_dir"
+alias cdue="cdu; cd encoders_dir"
+alias cdul="cdu; cd list_mgr_dir"
+alias cduq="cdu; cd queue_mgr_dir"
+alias cdut="cdu; cd thread_mgr_dir"
+alias makego="cds; make; go"
+alias mkdb="cds; mkdir target_dir; mkdir db_dir"
+alias gitclonesql="cdg; git clone https://github.com/paulhwang/sql_go; mkdb"
+alias ipaddr="ip address"
+alias ipaddrext="curl -w "\n" -s https://api.ipify.org"
+alias ipaddrext1="wget -O - -q icanhazip.com"
+alias pppon="sudo pon dsl-provider"
+alias pppoff="sudo poff -a"
+alias cdppp="cd /etc/ppp"
+alias find_postgres="sudo find /usr -wholename '*/bin/postgres'"
+
