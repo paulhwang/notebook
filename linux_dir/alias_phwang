@@ -13,9 +13,9 @@ a cdj='cdw; cd j_go'
 a cdnotebook='cdw; cd notebook'
 a cdpython='cdm; cd python_dir'
 alias cdpythonenvironments="cdpython; cd environments; source my_env/bin/activate"
-a au='cd ~; vi .alias_phwang; au0; source ~/.alias_phwang'
-a au0='cp ~/.alias_phwang ~/mine/work/notebook/linux_dir/alias_phwang'
-
+a au='cd ~; vi .alias_phwang; au_copy; au_go'
+a au_copy='cp ~/.alias_phwang ~/mine/work/notebook/linux_dir/alias_phwang'
+a au_go='source ~/.alias_phwang'
 
 alias lld="cds; ll db_dir"
 alias llt="cds; ll target_dir"
