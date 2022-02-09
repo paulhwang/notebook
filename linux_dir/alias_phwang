@@ -4,17 +4,17 @@ a l='ls'
 a ll='ls -l'
 a lll='ls -a'
 a llll='ls -al'
-a key='cat ~/mine/key'
+a key='cat ~/mine/git_dir/key'
 a cdm='cd; cd mine'
 a cdw='cdm; cd work'
 a cdc='cdw; cd c_go'
 a cdn='cdw; cd n_go'
 a cdj='cdw; cd j_go'
 a cdnotebook='cdw; cd notebook'
-a cdpython='cdm; cd python'
+a cdpython='cdm; cd python_dir'
 alias cdpythonenvironments="cdpython; cd environments; source my_env/bin/activate"
-a au="cd ~; vi .alias_phwang; source ~/.alias_phwang"
-
+a au='cd ~; vi .alias_phwang; au0; source ~/.alias_phwang'
+a au0='cp ~/.alias_phwang ~/mine/work/notebook/linux_dir/alias_phwang'
 
 
 alias lld="cds; ll db_dir"
