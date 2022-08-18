@@ -10,3 +10,7 @@ Instruction for clone a repository from github:
 
 Others"
 1 Use "git push" and "git pull" to update the repository.
+
+Token:
+From your GitHub account, go to Settings => Developer Settings => Personal Access Token => Generate New Token (Give your password) => Fillup the form => click Generate token => Copy the generated Token,
+
