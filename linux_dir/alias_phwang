@@ -8,13 +8,11 @@ a llll='ls -al'
 a key='cat ~/mine/git_dir/key'
 
 a cdmine='cd; cd mine'
-a cdm='cd; cd mine'
-a cdw='cdm; cd work'
 a cdwork='cdmine; cd work'
 
 a cdgo='cdwork; cd go_proj'
 a cdmmw='cdwork; cd mmw_proj'
-a cdnotebook='cdw; cd notebook'
+a cdnotebook='cdwork; cd notebook'
 
 a cdgoc='cdgo; cd c_go'
 a cdgon='cdgo; cd n_go'
