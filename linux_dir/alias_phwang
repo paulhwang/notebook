@@ -18,15 +18,16 @@ a cdnotebook='cdw; cd notebook'
 
 a cdgoc='cdgo; cd c_go'
 a cdgon='cdgo; cd n_go'
-a cdgoj='cdgo; cd i_go'
+a cdgoj='cdgo; cd j_go'
 
 a cdmmwc='cdmmw; cd c_mmw'
 a cdmmwn='cdmmw; cd n_mmw'
-a cdmmwj='cdmmw; cd i_mmw'
+a cdmmwj='cdmmw; cd j_mmw'
 
-a cdc='cdw; cd c_go'
-a cdn='cdw; cd n_go'
-a cdj='cdw; cd j_go'
+a cdc='cdgoc'
+a cdn='cdgon'
+a cdj='cdgoj'
+
 a cdpython='cdm; cd python_dir'
 alias cdpythonenvironments="cdpython; cd environments; source my_env/bin/activate"
 a au='cd ~; vi .alias_phwang; au_copy; au_go'
