@@ -4,13 +4,29 @@ a l='ls'
 a ll='ls -l'
 a lll='ls -a'
 a llll='ls -al'
+
 a key='cat ~/mine/git_dir/key'
+
+a cdmine='cd; cd mine'
 a cdm='cd; cd mine'
 a cdw='cdm; cd work'
+a cdwork='cdmine; cd work'
+
+a cdgo='cdwork; cd go_proj'
+a cdmmw='cdwork; cd mmw_proj'
+a cdnotebook='cdw; cd notebook'
+
+a cdgoc='cdgo; cd c_go'
+a cdgon='cdgo; cd n_go'
+a cdgoj='cdgo; cd i_go'
+
+a cdmmwc='cdmmw; cd c_mmw'
+a cdmmwn='cdmmw; cd n_mmw'
+a cdmmwj='cdmmw; cd i_mmw'
+
 a cdc='cdw; cd c_go'
 a cdn='cdw; cd n_go'
 a cdj='cdw; cd j_go'
-a cdnotebook='cdw; cd notebook'
 a cdpython='cdm; cd python_dir'
 alias cdpythonenvironments="cdpython; cd environments; source my_env/bin/activate"
 a au='cd ~; vi .alias_phwang; au_copy; au_go'
@@ -44,4 +60,8 @@ alias pppon="sudo pon dsl-provider"
 alias pppoff="sudo poff -a"
 alias cdppp="cd /etc/ppp"
 alias find_postgres="sudo find /usr -wholename '*/bin/postgres'"
+
+alias run_mocia_csr="cd ~/mine/download/autorun.dir/mocia_csr/HiPKILocalSignServerApp; ./start.sh&"
+alias run_pcsc_scar="pcsc_scan"
+
 
