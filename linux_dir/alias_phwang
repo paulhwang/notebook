@@ -19,8 +19,8 @@ a cdgon='cdgo; cd n_go'
 a cdgoj='cdgo; cd j_go'
 
 a cdmmwc='cdmmw; cd c_mmw'
-a cdmmwn='cdmmw; cd mmw; cd n_mmw'
-a cdmmwj='cdmmw; cd mmw; cd j_mmw'
+a cdmmwn='cdmmw; cd n_mmw'
+a cdmmwj='cdmmwn; cd j_mmw'
 
 a cdc='cdmmwc'
 a cdn='cdmmwn'
