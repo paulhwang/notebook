@@ -7,6 +7,8 @@ a llll='ls -al'
 
 a key='cat ~/mine/git_dir/key'
 
+a untarmmw='tar -xvf mmw.tar.gz'
+
 a cdmine='cd; cd mine'
 a cdwork='cdmine; cd work'
 
