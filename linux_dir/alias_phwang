@@ -24,9 +24,11 @@ a cdmmwc='cdmmw; cd c_mmw'
 a cdmmwn='cdmmw; cd n_mmw'
 a cdmmwj='cdmmwn; cd j_mmw'
 
-a cdc='cdmmwc'
-a cdn='cdmmwn'
-a cdj='cdmmwj'
+a cdc='cdgoc'
+a cdn='cdgon'
+a cdj='cdgoj'
+
+a gitall='cdc; git status; cdn; git status; cdj; git status'
 
 a cdpython='cdm; cd python_dir'
 alias cdpythonenvironments="cdpython; cd environments; source my_env/bin/activate"
