@@ -28,7 +28,10 @@ a cdc='cdgoc'
 a cdn='cdgon'
 a cdj='cdgoj'
 
-a gitall='cdc; git status; cdn; git status; cdj; git status'
+a gitall='cdnotebook; git status; cdj; git status; cdn; git status; cdc; git status'
+a gitclonecgo='cdgo; rm -rf c_go; git clone https://github.com/paulhwang/c_go'
+a gitclonengo='cdgo; rm -rf c_go; git clone https://github.com/paulhwang/n_go'
+a gitclonejgo='cdgo; rm -rf c_go; git clone https://github.com/paulhwang/j_go'
 
 a cdpython='cdm; cd python_dir'
 alias cdpythonenvironments="cdpython; cd environments; source my_env/bin/activate"
@@ -55,7 +58,7 @@ alias cduq="cdu; cd queue_mgr_dir"
 alias cdut="cdu; cd thread_mgr_dir"
 alias makego="cds; make; go"
 alias mkdb="cds; mkdir target_dir; mkdir db_dir"
-alias gitclonesql="cdg; git clone https://github.com/paulhwang/sql_go; mkdb"
+alias gitclonesql='cdmw; git clone https://github.com/paulhwang/sql_go; mkdb'
 alias ipaddr="ip address"
 alias ipaddrext="curl -w "\n" -s https://api.ipify.org"
 alias ipaddrext1="wget -O - -q icanhazip.com"
