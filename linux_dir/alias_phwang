@@ -15,10 +15,12 @@ a cdwork='cdmine; cd work'
 a cdgo='cdwork; cd go_proj'
 a cdmmw='cdwork; cd mmw_proj'
 a cdnotebook='cdwork; cd notebook'
+a androidstudio='cdwork; cd android-studio/bin; sh studio.sh'
 
 a cdgoc='cdgo; cd c_go'
 a cdgon='cdgo; cd n_go'
 a cdgoj='cdgo; cd j_go'
+a cdgoa='cdgo; cd android_go'
 
 a cdmmwc='cdmmw; cd c_mmw'
 a cdmmwn='cdmmw; cd n_mmw'
@@ -27,6 +29,7 @@ a cdmmwj='cdmmwn; cd j_mmw'
 a cdc='cdgoc'
 a cdn='cdgon'
 a cdj='cdgoj'
+a cda='cdgoa'
 
 a gitall='cdnotebook; git status; cdj; git status; cdn; git status; cdc; git status'
 a gitpush='git status; key; git push'
@@ -39,6 +42,8 @@ alias cdpythonenvironments="cdpython; cd environments; source my_env/bin/activat
 a au='cd ~; vi .alias_phwang; au_copy; au_go'
 a au_copy='cp ~/.alias_phwang ~/mine/work/notebook/linux_dir/alias_phwang'
 a au_go='source ~/.alias_phwang'
+
+a ubuntu_version='lsb_release -a'
 
 alias lld="cds; ll db_dir"
 alias llt="cds; ll target_dir"
