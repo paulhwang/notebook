@@ -33,9 +33,9 @@ a cda='cdgoa'
 
 a gitall='cdnotebook; git status; cdj; git status; cdn; git status; cdc; git status'
 a gitpush='git status; key; git push'
-a gitclonecgo='cdgo; rm -rf c_go; git clone https://github.com/paulhwang/c_go'
-a gitclonengo='cdgo; rm -rf n_go; git clone https://github.com/paulhwang/n_go'
-a gitclonejgo='cdgo; rm -rf j_go; git clone https://github.com/paulhwang/j_go'
+a gitclonecgo='cdgo; rm -rf c_go; git clone https://github.com/paulhwang/c_go; cdc'
+a gitclonengo='cdgo; rm -rf n_go; git clone https://github.com/paulhwang/n_go; cdn'
+a gitclonejgo='cdgo; rm -rf j_go; git clone https://github.com/paulhwang/j_go; cdj'
 
 a cdpython='cdm; cd python_dir'
 alias cdpythonenvironments="cdpython; cd environments; source my_env/bin/activate"
