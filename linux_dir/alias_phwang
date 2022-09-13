@@ -31,6 +31,7 @@ a cdn='cdgon'
 a cdj='cdgoj'
 a cda='cdgoa'
 
+a gitstatus='git status'
 a gitall='cdnotebook; git status; cdj; git status; cdn; git status; cdc; git status'
 a gitpush='git status; key; git push'
 a gitclonecgo='cdgo; rm -rf c_go; git clone https://github.com/paulhwang/c_go; cdc'
