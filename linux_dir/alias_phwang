@@ -33,7 +33,7 @@ a cda='cdgoa'
 
 a gitstatus='git status'
 a gitdiff='git diff'
-a gitall='cdnotebook; git status; cdj; git status; cdn; git status; cdc; git statusl'
+a gitall='cdnotebook; git status; cdj; git status; cdn; git status; cdc; git status'
 a gitpush='git status; key; git push; gitall'
 a gitclonecgo='cdgo; rm -rf c_go; git clone https://github.com/paulhwang/c_go; cdc'
 a gitclonengo='cdgo; rm -rf n_go; git clone https://github.com/paulhwang/n_go; cdn'
