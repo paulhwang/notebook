@@ -39,6 +39,8 @@ a gitclonecgo='cdgo; rm -rf c_go; git clone https://github.com/paulhwang/c_go; c
 a gitclonengo='cdgo; rm -rf n_go; git clone https://github.com/paulhwang/n_go; cdn'
 a gitclonejgo='cdgo; rm -rf j_go; git clone https://github.com/paulhwang/j_go; cdj'
 
+a phwangso='cdc; ar -t libphwang.a'
+
 a cdpython='cdm; cd python_dir'
 alias cdpythonenvironments="cdpython; cd environments; source my_env/bin/activate"
 a au='cd ~; vi .alias_phwang; au_copy; au_go'
