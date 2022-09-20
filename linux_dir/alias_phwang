@@ -55,7 +55,7 @@ alias go1="cds; target_dir/sql_server"
 alias cdg="cd; cd github"
 
 alias cds="cdg; cd sql_go"
-alias goc="cdc; ./server"
+alias goc="cdc; cd server_proj_dir; ./server"
 alias gon="cdn; ./run_go"
 alias cdss="cds; cd sql_server_dir"
 alias cdt="cds; cd test_dir"
