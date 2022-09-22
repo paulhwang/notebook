@@ -46,6 +46,10 @@ a gitclonej_go='cdgo; rm -rf j_go; git clone https://github.com/paulhwang/j_go; 
 a gitcloneandroid_go='cdgo; rm -rf android_go; git clone https://github.com/paulhwang/android_go; cda'
 a gitclonedjango_go='cdgo; rm -rf django_go; git clone https://github.com/paulhwang/django_go; cdd'
 
+a mkcs='cdcs; make clean; make all'
+a mkcp='cdcp; make clean; make all'
+a mkall='mkcp; mkcs'
+
 a phwangso='cdc; ar -t libphwang.a'
 
 a cdpython='cdm; cd python_dir'
