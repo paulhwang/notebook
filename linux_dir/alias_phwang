@@ -15,7 +15,7 @@ a cdwork='cdmine; cd work'
 a cdgo='cdwork; cd go_proj'
 a cdmmw='cdwork; cd mmw_proj'
 a cdnotebook='cdwork; cd notebook'
-a androidstudio='cdwork; cd android-studio/bin; sh studio.sh'
+a androidstudio='cdwork; cd android-studio/bin; sh studio.sh&'
 
 a cdgoc='cdgo; cd c_go'
 a cdgon='cdgo; cd n_go'
@@ -62,7 +62,7 @@ alias go1="cds; target_dir/sql_server"
 alias cdg="cd; cd github"
 
 alias cds="cdg; cd sql_go"
-alias goc="cdc; cd server_proj_dir; ./server"
+alias goc="cdcs; ./server"
 alias gon="cdn; ./run_go"
 alias cdss="cds; cd sql_server_dir"
 alias cdt="cds; cd test_dir"
