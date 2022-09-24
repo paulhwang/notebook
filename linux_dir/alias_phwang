@@ -52,6 +52,9 @@ a mkall='mkcp; mkcs'
 
 a phwangso='cdc; ar -t libphwang.a'
 
+a adblogcaterror='adb logcat *:E'
+a adblogcatclear='adb logcat -c'
+
 a cdpython='cdm; cd python_dir'
 alias cdpythonenvironments="cdpython; cd environments; source my_env/bin/activate"
 a au='cd ~; vi .alias_phwang; au_copy; au_go'
