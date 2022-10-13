@@ -1,0 +1,5 @@
+ssh-keygen -t ed25519 -f ~/.ssh/phwang
+
+ssh-copy-id -i ~/.ssh/phwang.pub phwang@10.0.0.19
+
+ssh -i ~/.ssh/phwang phwang@10.0.0.19
