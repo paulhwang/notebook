@@ -43,6 +43,7 @@ a gitpush='git status; key; git push; gitall'
 a gitclonec_go='cdgo; rm -rf c_go; git clone https://github.com/paulhwang/c_go; cdc'
 a gitclonen_go='cdgo; rm -rf n_go; git clone https://github.com/paulhwang/n_go; cdn'
 a gitclonej_go='cdgo; rm -rf j_go; git clone https://github.com/paulhwang/j_go; cdj'
+a gitclonenotebook='cdnotebook; rm -rf notebook; git clone https://github.com/paulhwang/notebook; cdnotebook'
 a gitcloneandroid_go='cdgo; rm -rf android_go; git clone https://github.com/paulhwang/android_go; cda'
 a gitclonedjango_go='cdgo; rm -rf django_go; git clone https://github.com/paulhwang/django_go; cdd'
 
