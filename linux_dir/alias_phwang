@@ -49,6 +49,7 @@ a gitclonedjango_go='cdgo; rm -rf django_go; git clone https://github.com/paulhw
 
 a mkcs='cdcs; make clean; make all'
 a mkcp='cdcp; make clean; make all'
+a mkcr='cdcr; make clean; make all'
 a mkall='mkcp; mkcs'
 
 a phwangso='cdc; ar -t libphwang.a'
